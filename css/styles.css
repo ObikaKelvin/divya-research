@@ -419,15 +419,7 @@ body{
     transition: 1s;
 }
 
-#about[data-scroll = 'in']::before{
-    opacity: 0;
-    /* transform: translateX(); */
-}
 
-#about[data-scroll = 'in']{
-    opacity: 1;
-    transform: translateX(0rem);
-}
 
 .about__content{
     display: flex;
